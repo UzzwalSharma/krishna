@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import React from "react";
 
 const images = [
-  { url: "https://content.jdmagicbox.com//comp/delhi/f6/011pxx11.xx11.211018145355.x2f6/menu/academica-institute-raj-nagar-ghaziabad-ghaziabad-tutorials-6fknzly.jpg", title: "Campus Corridor" },
-  { url: "https://content.jdmagicbox.com/v2/comp/delhi/e3/011pxx11.xx11.231201143200.n6e3/catalogue/academica-institute-ghaziabad-tutorials-oefz7o2ps4.jpg", title: "Smart Classroom" },
-  { url: "https://5.imimg.com/data5/GLADMIN/Default/2023/12/371509112/UE/DO/MK/139864692/cma-classes.jpg" },
-  { url: "https://image-static.collegedunia.com/public/image/institute/album_17317425342024-10-03.jpg", title: "Cultural Event" },
+  { url: "https://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-feature-slide-3-1730066984231c.webp", title: "Campus Corridor" },
+  { url: "https://lh3.googleusercontent.com/p/AF1QipNtQG3hxtZI78UQenEdcyEyvfuwpgIsAJfP4jmy=s1360-w1360-h1020-rw", title: "Smart Classroom" },
+  { url: "https://lh3.googleusercontent.com/p/AF1QipOJYH8KCZTRdlIs7A1zgSv9bQXKIUclavRsyCHu=s1360-w1360-h1020-rw" },
+  { url: "http://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-thumb-1730066984231c.webp", title: "Cultural Event" },
  
 ];
 

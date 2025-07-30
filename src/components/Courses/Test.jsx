@@ -58,30 +58,46 @@ function Button({ className = "", size = "md", variant = "primary", children, ..
 
 const testSeries = [
   {
-    title: "JEE Mock Tests",
-    description: "Comprehensive mock tests following latest JEE pattern with detailed analysis.",
-    tests: "50+ Tests",
-    duration: "3 Hours Each",
-    icon: FileText,
-    features: ["Latest Pattern", "Detailed Solutions", "Performance Analysis", "Rank Prediction"]
-  },
-  {
-    title: "NEET Practice Tests",
-    description: "NEET focused test series with NCERT based questions and time management.",
+    title: "Prelims Test Series",
+    description: "Simulate the actual UPSC Prelims with full-length tests and CSAT papers.",
     tests: "40+ Tests",
-    duration: "3 Hours Each",
-    icon: BarChart3,
-    features: ["NCERT Based", "Time Management", "Subject-wise Tests", "All India Ranking"]
+    duration: "2 Hours Each",
+    icon: FileText,
+    features: [
+      "GS + CSAT Coverage",
+      "All India Ranking",
+      "Detailed Explanations",
+      "Current Affairs Integration"
+    ]
   },
   {
-    title: "Board Exam Series",
-    description: "Board exam pattern tests for Class 9th to 12th with chapter-wise assessment.",
-    tests: "100+ Tests",
-    duration: "2-3 Hours",
+    title: "Mains Answer Writing",
+    description: "Daily and weekly structured writing practice for GS Papers and Essay.",
+    tests: "100+ Questions",
+    duration: "1–2 Hours Each",
+    icon: BarChart3,
+    features: [
+      "Model Answers",
+      "Faculty Feedback",
+      "Time-bound Practice",
+      "GS & Essay Focused"
+    ]
+  },
+  {
+    title: "Interview Mock Sessions",
+    description: "Personalized DAF-based mock interviews with expert panel feedback.",
+    tests: "5+ Mocks",
+    duration: "30–40 min Each",
     icon: Trophy,
-    features: ["Chapter-wise", "Board Pattern", "Instant Results", "Progress Tracking"]
+    features: [
+      "Realistic Panel Simulation",
+      "DAF-based Questions",
+      "Soft Skills Training",
+      "Recording & Review"
+    ]
   }
 ];
+
 
 const TestSeriesSection = () => {
   return (

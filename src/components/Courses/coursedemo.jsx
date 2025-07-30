@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { Calculator, Microscope, TrendingUp, BookOpen, Clock, Users } from 'lucide-react';
+import { BookOpenCheck, FileText, LibraryBig, Landmark, Users, Clock } from 'lucide-react';
 
-// Card components
+// Card components (unchanged)
 function Card({ className = "", children }) {
   return (
     <div className={`bg-white rounded-2xl shadow-md border border-gray-200 ${className}`}>
@@ -11,30 +11,17 @@ function Card({ className = "", children }) {
 }
 
 function CardHeader({ className = "", children }) {
-  return (
-    <div className={`p-6 pb-0 ${className}`}>
-      {children}
-    </div>
-  );
+  return <div className={`p-6 pb-0 ${className}`}>{children}</div>;
 }
 
 function CardContent({ className = "", children }) {
-  return (
-    <div className={`p-6 pt-4 ${className}`}>
-      {children}
-    </div>
-  );
+  return <div className={`p-6 pt-4 ${className}`}>{children}</div>;
 }
 
 function CardTitle({ className = "", children }) {
-  return (
-    <h3 className={`text-xl font-bold mb-2 ${className}`}>
-      {children}
-    </h3>
-  );
+  return <h3 className={`text-xl font-bold mb-2 ${className}`}>{children}</h3>;
 }
 
-// Simple Button component
 function Button({ className = "", size = "md", children, ...props }) {
   const sizeClasses = {
     sm: "px-3 py-1.5 text-sm",
@@ -51,57 +38,58 @@ function Button({ className = "", size = "md", children, ...props }) {
   );
 }
 
+// Updated UPSC-focused courses
 const courses = [
   {
     id: 1,
-    title: "IIT-JEE Preparation",
-    description: "Comprehensive coaching for JEE Main & Advanced with expert faculty and proven methodology.",
-    icon: Calculator,
-    duration: "2 Years",
-    students: "500+ Students",
-    features: ["Physics, Chemistry, Mathematics", "Mock Tests & Analysis", "Doubt Clearing Sessions", "Study Materials"],
-    color: "from-blue-500 to-cyan-500"
+    title: "Foundation Course (GS + CSAT)",
+    description: "Comprehensive coverage of General Studies and CSAT for beginners and undergraduates.",
+    icon: Landmark,
+    duration: "12 Months",
+    students: "1000+ Enrolled",
+    features: ["NCERT to Advanced", "Daily Answer Writing", "CSAT Focused Practice", "Mentorship Sessions"],
+    color: "from-blue-600 to-cyan-600"
   },
   {
     id: 2,
-    title: "NEET Preparation",
-    description: "Complete medical entrance preparation with focus on Biology, Chemistry, and Physics.",
-    icon: Microscope,
-    duration: "2 Years",
-    students: "400+ Students",
-    features: ["Biology, Chemistry, Physics", "NCERT Based Teaching", "Regular Assessments", "Medical Career Guidance"],
-    color: "from-green-500 to-emerald-500"
+    title: "Prelims Crash Course",
+    description: "Intensive revision program covering static and current affairs topics for Prelims.",
+    icon: BookOpenCheck,
+    duration: "3 Months",
+    students: "800+ Enrolled",
+    features: ["Mock Tests Series", "Current Affairs Capsules", "PYQ Analysis", "Revision Notes"],
+    color: "from-yellow-500 to-amber-500"
   },
   {
     id: 3,
-    title: "CA | CS | CMA",
-    description: "Professional commerce courses with industry experts and practical training approach.",
-    icon: TrendingUp,
-    duration: "3-5 Years",
-    students: "300+ Students",
-    features: ["Foundation to Final", "Practical Training", "Industry Exposure", "Career Placement"],
-    color: "from-purple-500 to-pink-500"
+    title: "Mains Answer Writing",
+    description: "Structured daily answer writing practice with feedback and model answers.",
+    icon: FileText,
+    duration: "4 Months",
+    students: "600+ Enrolled",
+    features: ["Daily Questions", "Model Answers", "Review & Feedback", "Essay Writing Support"],
+    color: "from-rose-500 to-pink-500"
   },
   {
     id: 4,
-    title: "Class 9th & 10th",
-    description: "Strong foundation building with CBSE, ICSE, and State Board curriculum coverage.",
-    icon: BookOpen,
-    duration: "2 Years",
-    students: "800+ Students",
-    features: ["All Subjects Coverage", "Regular Tests", "Parent-Teacher Meetings", "Career Counseling"],
-    color: "from-orange-500 to-red-500"
+    title: "Optional Subject Coaching",
+    description: "Focused preparation for Optional subjects with expert faculty guidance.",
+    icon: LibraryBig,
+    duration: "5 Months",
+    students: "400+ Enrolled",
+    features: ["Popular Optionals Covered", "Notes & Test Series", "Conceptual Clarity", "Personal Mentorship"],
+    color: "from-purple-600 to-indigo-600"
   },
   {
     id: 5,
-    title: "Class 11th & 12th",
-    description: "Advanced level preparation for board exams and competitive exam foundation.",
-    icon: BookOpen,
-    duration: "2 Years",
-    students: "600+ Students",
-    features: ["PCM/PCB Streams", "Board Exam Focus", "Competitive Prep", "College Guidance"],
-    color: "from-indigo-500 to-purple-500"
-  }
+    title: "Interview Guidance Program",
+    description: "DAF analysis, mock interviews, and panel mentoring for UPSC Personality Test.",
+    icon: Users,
+    duration: "1 Month",
+    students: "150+ Candidates",
+    features: ["One-on-One Mock Interviews", "DAF Based Questions", "Communication Coaching", "Panel Feedback"],
+    color: "from-green-600 to-emerald-500"
+  },
 ];
 
 const CoursesSection = () => {
@@ -116,10 +104,10 @@ const CoursesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Our <span className="bg-gradient-primary bg-clip-text text-black">Courses</span>
+            Our <span className="bg-gradient-primary bg-clip-text text-black">UPSC Programs</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive coaching programs designed to help students excel in their academic and professional careers.
+            Strategically designed courses for every stage of the UPSC Civil Services Examination — from foundation to interview.
           </p>
         </motion.div>
 
@@ -134,18 +122,15 @@ const CoursesSection = () => {
             >
               <Card className="h-full hover:shadow-card transition-all duration-300 hover:scale-105 overflow-hidden group">
                 <CardHeader className="relative">
-                  {/* Gradient Background */}
                   <div className={`absolute inset-0 bg-gradient-to-br ${course.color} opacity-10 group-hover:opacity-20 transition-opacity duration-300`}></div>
                   
                   <div className="relative z-10">
                     <div className={`w-16 h-16 bg-gradient-to-br ${course.color} rounded-xl flex items-center justify-center mb-4`}>
                       <course.icon className="w-8 h-8 text-white" />
                     </div>
-                    
                     <CardTitle className="text-2xl font-bold text-foreground mb-2">
                       {course.title}
                     </CardTitle>
-                    
                     <p className="text-muted-foreground">
                       {course.description}
                     </p>
@@ -153,7 +138,6 @@ const CoursesSection = () => {
                 </CardHeader>
 
                 <CardContent className="space-y-6">
-                  {/* Course Info */}
                   <div className="flex items-center justify-between text-sm">
                     <div className="flex items-center space-x-1 text-muted-foreground">
                       <Clock className="w-4 h-4" />
@@ -165,7 +149,6 @@ const CoursesSection = () => {
                     </div>
                   </div>
 
-                  {/* Features */}
                   <div className="space-y-2">
                     <h4 className="font-semibold text-foreground">Course Features:</h4>
                     <ul className="space-y-1">
@@ -178,7 +161,6 @@ const CoursesSection = () => {
                     </ul>
                   </div>
 
-                  {/* CTA Button */}
                   <Button className="w-full btn-primary group-hover:shadow-glow">
                     Enroll Now
                   </Button>
@@ -188,7 +170,6 @@ const CoursesSection = () => {
           ))}
         </div>
 
-        {/* Additional Info */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -198,13 +179,13 @@ const CoursesSection = () => {
         >
           <div className="bg-gradient-card rounded-2xl p-8 shadow-soft">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Professional Faculty with Industry Experience
+              Learn from the Best in Civil Services Preparation
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Our experienced faculty members bring years of teaching expertise and industry knowledge to provide the best educational experience for our students.
+              Our expert faculty, mentorship support, and strategic modules are tailored to help aspirants succeed in every stage of the UPSC exam.
             </p>
             <Button size="lg" className="btn-secondary">
-              Meet Our Faculty
+              Meet Our Mentors
             </Button>
           </div>
         </motion.div>

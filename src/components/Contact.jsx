@@ -93,7 +93,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: ["info@academica.edu", "admissions@academica.edu"],
+    details: ["infoedu", "admissions@aca.edu"],
     color: "from-purple-500 to-pink-500"
   },
   {

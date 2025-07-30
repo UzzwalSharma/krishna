@@ -3,20 +3,20 @@ import { useEffect, useState } from "react";
 
 const images = [
   {
-    src: "https://images.jdmagicbox.com/v2/comp/delhi/f6/011pxx11.xx11.211018145355.x2f6/catalogue/academica-institute-raj-nagar-ghaziabad-ghaziabad-tutorials-lfp0qu77m0.jpg",
-    title: "Welcome to Academica",
+    src: "https://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-thumb-1730066984231c.webp",
+    title: null,
     subtitle: null,
     description: null,
   },
   {
-    src: "/image.png",
+    src: "https://cf.academycheck.com/c/nirvana-ias-academy-rohini-delhi-feature-slide-2-1730056505577c.webp",
     title: "Excellence in Education",
     subtitle: "Nurturing Future Leaders",
     description:
       "Empowering students with comprehensive learning programs designed to unlock their full potential and achieve academic excellence.",
   },
   {
-    src: "https://content3.jdmagicbox.com/v2/comp/ghaziabad/v2/011pxx11.xx11.210122142005.y5v2/catalogue/best-ca-cs-cma-cuet-coaching-in-indirapuram-academica-institute-indirapuram-ghaziabad-tutorials-for-ca-final-vtjpofk764.jpg",
+    src: "https://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-feature-slide-3-1730066984231c.webp",
     title: "Proven Results",
     subtitle: "Track Record of Success",
     description:

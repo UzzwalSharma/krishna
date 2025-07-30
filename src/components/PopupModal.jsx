@@ -30,7 +30,7 @@ const PopupModal = () => {
           >
             {/* Image */}
             <img
-              src="https://content3.jdmagicbox.com/v2/comp/delhi/f6/011pxx11.xx11.211018145355.x2f6/catalogue/best-institute-for-ca-cs-cma-neet-iit-jee-and-cucet-exam-academica-institute-raj-nagar-ghaziabad-ghaziabad-tally-training-institutes-ic9cjgiqyi.jpg"
+              src="pop.png"
               alt="Popup"
               className="w-full h-auto object-cover"
             />
