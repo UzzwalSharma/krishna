@@ -82,7 +82,7 @@ const AboutSection = () => {
             className="rounded-xl overflow-hidden shadow-xl"
           >
             <div className="aspect-w-16 aspect-h-9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/I6zaSofNVz4?si=vfVbcevd-uwrsO72" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             <img src="https://st3.depositphotos.com/4218696/18211/i/450/depositphotos_182119506-stock-photo-back-to-school-conceptual-background.jpg" alt="" srcset="" />
             </div>
           </motion.div>
 
