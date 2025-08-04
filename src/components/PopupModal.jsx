@@ -30,7 +30,7 @@ const PopupModal = () => {
           >
             {/* Image */}
             <img
-              src="/Gemini_Generated_Image_rs84dfrs84dfrs84.png"
+              src="/Gemini_Generated_Image_e2flvhe2flvhe2fl.png"
               alt="Popup"
               className="w-full h-auto object-cover"
             />

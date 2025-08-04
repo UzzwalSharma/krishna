@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const images = [
   {
-    src: "/Gemini_Generated_Image_5274gb5274gb5274.png",
+    src: "/Gemini_Generated_Image_t66sc3t66sc3t66s.png",
     title: null,
     subtitle: null,
     description: null,

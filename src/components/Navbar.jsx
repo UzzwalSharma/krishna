@@ -8,11 +8,11 @@ export function TopBanner() {
     <div className="w-full bg-gradient-to-r from-blue-600 to-green-500 text-white text-xs sm:text-sm py-2 px-2 sm:px-4 flex flex-col sm:flex-row items-center justify-between gap-2 z-40 relative">
       <div className="flex flex-col sm:flex-row items-center gap-2">
         <span className="flex items-center gap-1 font-semibold">
-          <Mail size={16} className="text-white" /> info@vidyapeeth.com
+          <Mail size={16} className="text-white" /> info@xyz.com
         </span>
         <span className="hidden sm:inline-block border-l border-white h-4 mx-2 opacity-40" />
         <span className="flex items-center gap-1 font-semibold">
-          <Phone size={16} className="text-white" /> +91 98765432103
+          <Phone size={16} className="text-white" /> +91 987654321d03
         </span>
       </div>
       <div className="flex gap-2">
@@ -69,7 +69,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAENly6N6H7B3YGuteBUAWcFB2otkFlADiKw&s" alt="Academica Logo" className="h-10 w-auto rounded shadow" />
-            <span className="text-green-600 font-extrabold text-xl tracking-wide">Vidyapeeth Institute</span>
+            <span className="text-green-600 font-extrabold text-xl tracking-wide">AK Coaching Institute</span>
           </div>
 
           {/* Desktop Nav */}
@@ -179,7 +179,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between px-6 py-4 border-b">
               <div className="flex items-center gap-2">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAENly6N6H7B3YGuteBUAWcFB2otkFlADiKw&s" alt="Academica Logo" className="h-8 w-auto rounded" />
-                <span className="text-green-600 font-extrabold text-lg">Vidyapeeth Institute</span>
+                <span className="text-green-600 font-extrabold text-lg">AK Coaching Institute</span>
               </div>
               <button
                 className="p-2 rounded hover:bg-green-50 transition"

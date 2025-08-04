@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import React from "react";
 
 const images = [
-  { url: "https://lh3.googleusercontent.com/p/AF1QipP9yQ1Paepx2KFU0U-0Q-w46cj0OkQtnrQWgGaa=s1360-w1360-h1020-rw", title: "Campus Corridor" },
-  { url: "https://lh3.googleusercontent.com/p/AF1QipMRuvwq85MQ6t5FU7stB4Bk6lEZat5WdK_82o5l=s1360-w1360-h1020-rw", title: "Smart Classroom" },
-  { url: "https://lh3.googleusercontent.com/p/AF1QipMRuvwq85MQ6t5FU7stB4Bk6lEZat5WdK_82o5l=s1360-w1360-h1020-rw" },
-  { url: "https://lh3.googleusercontent.com/p/AF1QipP9yQ1Paepx2KFU0U-0Q-w46cj0OkQtnrQWgGaa=s1360-w1360-h1020-rw", title: "Cultural Event" },
+  { url: "https://www.hindustantimes.com/ht-img/img/2024/01/19/550x309/03b6632f_1705658984848_1705658985010.jpg", title: "Campus Corridor" },
+  { url: "https://cdn.dnaindia.com/sites/default/files/2018/06/23/696326-coaching1.jpg?im=FitAndFill=(1200,900)", title: "Smart Classroom" },
+  { url: "https://cdn.dnaindia.com/sites/default/files/2018/06/23/696326-coaching1.jpg?im=FitAndFill=(1200,900)" },
+  { url: "https://www.hindustantimes.com/ht-img/img/2024/01/19/550x309/03b6632f_1705658984848_1705658985010.jpg", title: "Cultural Event" },
  
 ];
 
