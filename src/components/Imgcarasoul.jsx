@@ -9,14 +9,14 @@ const images = [
     description: null,
   },
   {
-    src: "https://cf.academycheck.com/c/nirvana-ias-academy-rohini-delhi-feature-slide-2-1730056505577c.webp",
+    src: "https://i.imgur.com/P5tLVw2.jpeg",
     title: "Excellence in Education",
     subtitle: "Nurturing Future Leaders",
     description:
       "Empowering students with comprehensive learning programs designed to unlock their full potential and achieve academic excellence.",
   },
   {
-    src: "https://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-feature-slide-3-1730066984231c.webp",
+    src: "https://resources.finalsite.net/images/t_image_size_4/v1569520149/marlborough/spuqptbjgx01pkknl1jy/CodingClass-342.jpg",
     title: "Proven Results",
     subtitle: "Track Record of Success",
     description:
