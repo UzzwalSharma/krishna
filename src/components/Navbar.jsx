@@ -8,11 +8,11 @@ export function TopBanner() {
     <div className="w-full bg-gradient-to-r from-blue-600 to-green-500 text-white text-xs sm:text-sm py-2 px-2 sm:px-4 flex flex-col sm:flex-row items-center justify-between gap-2 z-40 relative">
       <div className="flex flex-col sm:flex-row items-center gap-2">
         <span className="flex items-center gap-1 font-semibold">
-          <Mail size={16} className="text-white" /> info@nirvanaias.com
+          <Mail size={16} className="text-white" /> info@vidyapeeth.com
         </span>
         <span className="hidden sm:inline-block border-l border-white h-4 mx-2 opacity-40" />
         <span className="flex items-center gap-1 font-semibold">
-          <Phone size={16} className="text-white" /> +91 9876543210
+          <Phone size={16} className="text-white" /> +91 98765432103
         </span>
       </div>
       <div className="flex gap-2">
@@ -68,8 +68,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwnz5NGpeqAe_PENhrjP3xjt8s9jP-ij_rPA&s" alt="Academica Logo" className="h-10 w-auto rounded shadow" />
-            <span className="text-green-600 font-extrabold text-xl tracking-wide">NIRVANA IAS ACADEMY</span>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAENly6N6H7B3YGuteBUAWcFB2otkFlADiKw&s" alt="Academica Logo" className="h-10 w-auto rounded shadow" />
+            <span className="text-green-600 font-extrabold text-xl tracking-wide">Vidyapeeth Institute</span>
           </div>
 
           {/* Desktop Nav */}
@@ -178,8 +178,8 @@ export default function Navbar() {
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between px-6 py-4 border-b">
               <div className="flex items-center gap-2">
-                <img src="https://lh3.googleusercontent.com/p/AF1QipPHB5NWCotNC4xiIEckf9dRTLVorcrGiALCtXRe=s1360-w1360-h1020-rw" alt="Academica Logo" className="h-8 w-auto rounded" />
-                <span className="text-green-600 font-extrabold text-lg">Nirvana IAS Academy</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAENly6N6H7B3YGuteBUAWcFB2otkFlADiKw&s" alt="Academica Logo" className="h-8 w-auto rounded" />
+                <span className="text-green-600 font-extrabold text-lg">Vidyapeeth Institute</span>
               </div>
               <button
                 className="p-2 rounded hover:bg-green-50 transition"

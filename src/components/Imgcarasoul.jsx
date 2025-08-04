@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const images = [
   {
-    src: "https://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-thumb-1730066984231c.webp",
+    src: "/Gemini_Generated_Image_5274gb5274gb5274.png",
     title: null,
     subtitle: null,
     description: null,

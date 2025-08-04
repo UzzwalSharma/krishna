@@ -1,5 +1,4 @@
 import React from 'react'
-import TopBanner from './components/TopBanner'
 import Navbar from './components/Navbar'
 import ImgCarousel from './components/Imgcarasoul'
 import About from './components/About'
@@ -13,7 +12,6 @@ import PopupModal from './components/PopupModal'
 function App() {
   return (
     <div className="overflow-x-hidden">
-     {/* <TopBanner/> */}
      <PopupModal/>
      <Navbar/>
      <ImgCarousel/>

@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import React from "react";
 
 const images = [
-  { url: "https://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-feature-slide-3-1730066984231c.webp", title: "Campus Corridor" },
-  { url: "https://lh3.googleusercontent.com/p/AF1QipNtQG3hxtZI78UQenEdcyEyvfuwpgIsAJfP4jmy=s1360-w1360-h1020-rw", title: "Smart Classroom" },
-  { url: "https://lh3.googleusercontent.com/p/AF1QipOJYH8KCZTRdlIs7A1zgSv9bQXKIUclavRsyCHu=s1360-w1360-h1020-rw" },
-  { url: "http://cf.academycheck.com/c/nirvana-ias-academy-tilak-nagar-delhi-thumb-1730066984231c.webp", title: "Cultural Event" },
+  { url: "https://lh3.googleusercontent.com/p/AF1QipP9yQ1Paepx2KFU0U-0Q-w46cj0OkQtnrQWgGaa=s1360-w1360-h1020-rw", title: "Campus Corridor" },
+  { url: "https://lh3.googleusercontent.com/p/AF1QipMRuvwq85MQ6t5FU7stB4Bk6lEZat5WdK_82o5l=s1360-w1360-h1020-rw", title: "Smart Classroom" },
+  { url: "https://lh3.googleusercontent.com/p/AF1QipMRuvwq85MQ6t5FU7stB4Bk6lEZat5WdK_82o5l=s1360-w1360-h1020-rw" },
+  { url: "https://lh3.googleusercontent.com/p/AF1QipP9yQ1Paepx2KFU0U-0Q-w46cj0OkQtnrQWgGaa=s1360-w1360-h1020-rw", title: "Cultural Event" },
  
 ];
 

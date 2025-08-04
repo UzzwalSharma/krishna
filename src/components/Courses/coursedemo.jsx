@@ -38,58 +38,68 @@ function Button({ className = "", size = "md", children, ...props }) {
   );
 }
 
-// Updated UPSC-focused courses
+// Updated programming courses
 const courses = [
   {
     id: 1,
-    title: "Foundation Course (GS + CSAT)",
-    description: "Comprehensive coverage of General Studies and CSAT for beginners and undergraduates.",
+    title: "PHP Programming",
+    description: "Learn server-side scripting and web development with PHP from basics to advanced.",
     icon: Landmark,
-    duration: "12 Months",
-    students: "1000+ Enrolled",
-    features: ["NCERT to Advanced", "Daily Answer Writing", "CSAT Focused Practice", "Mentorship Sessions"],
-    color: "from-blue-600 to-cyan-600"
+    duration: "3 Months",
+    students: "900+ Enrolled",
+    features: [
+      "Syntax & Data Structures",
+      "Database Integration (MySQL)",
+      "Building Dynamic Websites",
+      "Project: Blog Platform"
+    ],
+    color: "from-indigo-600 to-blue-500"
   },
   {
     id: 2,
-    title: "Prelims Crash Course",
-    description: "Intensive revision program covering static and current affairs topics for Prelims.",
+    title: "Java Programming",
+    description: "Master object-oriented programming and application development with Java.",
     icon: BookOpenCheck,
-    duration: "3 Months",
-    students: "800+ Enrolled",
-    features: ["Mock Tests Series", "Current Affairs Capsules", "PYQ Analysis", "Revision Notes"],
-    color: "from-yellow-500 to-amber-500"
+    duration: "4 Months",
+    students: "1200+ Enrolled",
+    features: [
+      "OOP Concepts",
+      "GUI & Desktop Apps",
+      "Data Structures & Algorithms",
+      "Project: Library Management System"
+    ],
+    color: "from-orange-500 to-amber-500"
   },
   {
     id: 3,
-    title: "Mains Answer Writing",
-    description: "Structured daily answer writing practice with feedback and model answers.",
+    title: "C Programming",
+    description: "Build a strong foundation in procedural programming and system-level concepts with C.",
     icon: FileText,
-    duration: "4 Months",
-    students: "600+ Enrolled",
-    features: ["Daily Questions", "Model Answers", "Review & Feedback", "Essay Writing Support"],
-    color: "from-rose-500 to-pink-500"
+    duration: "2 Months",
+    students: "700+ Enrolled",
+    features: [
+      "Pointers & Memory Management",
+      "File Handling",
+      "Problem Solving",
+      "Project: Mini Compiler"
+    ],
+    color: "from-blue-700 to-cyan-600"
   },
   {
     id: 4,
-    title: "Optional Subject Coaching",
-    description: "Focused preparation for Optional subjects with expert faculty guidance.",
+    title: "Python Programming",
+    description: "Start coding with Python for web, data science, automation, and more.",
     icon: LibraryBig,
-    duration: "5 Months",
-    students: "400+ Enrolled",
-    features: ["Popular Optionals Covered", "Notes & Test Series", "Conceptual Clarity", "Personal Mentorship"],
-    color: "from-purple-600 to-indigo-600"
-  },
-  {
-    id: 5,
-    title: "Interview Guidance Program",
-    description: "DAF analysis, mock interviews, and panel mentoring for UPSC Personality Test.",
-    icon: Users,
-    duration: "1 Month",
-    students: "150+ Candidates",
-    features: ["One-on-One Mock Interviews", "DAF Based Questions", "Communication Coaching", "Panel Feedback"],
+    duration: "3 Months",
+    students: "1500+ Enrolled",
+    features: [
+      "Syntax & Libraries",
+      "Web Scraping & Automation",
+      "Data Analysis (Pandas, NumPy)",
+      "Project: Data Dashboard"
+    ],
     color: "from-green-600 to-emerald-500"
-  },
+  }
 ];
 
 const CoursesSection = () => {
@@ -104,10 +114,10 @@ const CoursesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Our <span className="bg-gradient-primary bg-clip-text text-black">UPSC Programs</span>
+            Our <span className="bg-gradient-primary bg-clip-text text-black">Programming Courses</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Strategically designed courses for every stage of the UPSC Civil Services Examination — from foundation to interview.
+            Strategically designed courses for every stage of your programming journey — from basics to advanced projects.
           </p>
         </motion.div>
 
@@ -179,13 +189,13 @@ const CoursesSection = () => {
         >
           <div className="bg-gradient-card rounded-2xl p-8 shadow-soft">
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Learn from the Best in Civil Services Preparation
+              Learn from the Best in Programming Education
             </h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Our expert faculty, mentorship support, and strategic modules are tailored to help aspirants succeed in every stage of the UPSC exam.
+              Our expert instructors, hands-on projects, and comprehensive curriculum are tailored to help you succeed in your programming career.
             </p>
             <Button size="lg" className="btn-secondary">
-              Meet Our Mentors
+              Meet Our Instructors
             </Button>
           </div>
         </motion.div>

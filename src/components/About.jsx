@@ -95,13 +95,13 @@ const AboutSection = () => {
             className="text-left"
           >
             <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900 mb-4">
-              Nirvana IAS Academy
+             Vidyapeeth Institute
             </h2>
             <span className="block text-xl sm:text-2xl font-semibold text-purple-700 mb-3">
               IRPO: Intensive Research & Practice Oriented Method
             </span>
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-              Nirvana IAS Academy empowers UPSC aspirants with a unique blend of conceptual clarity, structured research, and continuous mentoring.
+             Vidyapeeth Institute empowers UPSC aspirants with a unique blend of conceptual clarity, structured research, and continuous mentoring.
               Our IRPO approach ensures aspirants not only prepare smartly but also grow steadily with focused guidance, rigorous test series, and personalized support throughout the journey.
             </p>
           </motion.div>

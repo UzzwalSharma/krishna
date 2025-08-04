@@ -22,7 +22,7 @@ const Footer = () => {
       'NCERT Foundation Batch'
     ],
     quickLinks: [
-      'About Nirvana IAS',
+      'About Vidyapeeth Institute',
       'Test Series',
       'Resources & Downloads',
       'Gallery',
@@ -61,11 +61,11 @@ const Footer = () => {
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                   <GraduationCap className="w-7 h-7 text-blue-600" />
                 </div>
-                <h2 className="text-3xl font-bold">Nirvana IAS Academy</h2>
+                <h2 className="text-3xl font-bold">Vidyapeeth Institute </h2>
               </div>
 
               <p className="text-white/80 leading-relaxed">
-                Nirvana IAS Academy in Delhi is a premier coaching institute dedicated to helping UPSC aspirants achieve success through expert faculty, personalized mentoring, and a focused approach to civil services preparation.
+                Vidyapeeth Institute  in Delhi is a premier coaching institute dedicated to helping UPSC aspirants achieve success through expert faculty, personalized mentoring, and a focused approach to civil services preparation.
               </p>
 
               <div className="space-y-3 text-sm">
@@ -132,7 +132,7 @@ const Footer = () => {
             className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4"
           >
             <p className="text-sm text-white/70 text-center md:text-left">
-              © {currentYear} Nirvana IAS Academy, Delhi. All rights reserved.
+              © {currentYear} Vidyapeeth Institute Academy, Delhi. All rights reserved.
             </p>
             <div className="flex gap-4 text-sm">
               {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((text, idx) => (

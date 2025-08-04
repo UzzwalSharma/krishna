@@ -58,42 +58,55 @@ function Button({ className = "", size = "md", variant = "primary", children, ..
 
 const testSeries = [
   {
-    title: "Prelims Test Series",
-    description: "Simulate the actual UPSC Prelims with full-length tests and CSAT papers.",
-    tests: "40+ Tests",
-    duration: "2 Hours Each",
+    title: "PHP Practice Tests",
+    description: "Assess your PHP skills with real-world coding challenges and quizzes.",
+    tests: "20+ Tests",
+    duration: "1–2 Hours Each",
     icon: FileText,
     features: [
-      "GS + CSAT Coverage",
-      "All India Ranking",
-      "Detailed Explanations",
-      "Current Affairs Integration"
+      "Syntax & Functions",
+      "Database (MySQL) Integration",
+      "Web Application Scenarios",
+      "Project-based Questions"
     ]
   },
   {
-    title: "Mains Answer Writing",
-    description: "Daily and weekly structured writing practice for GS Papers and Essay.",
-    tests: "100+ Questions",
+    title: "Java Coding Assessments",
+    description: "Sharpen your Java programming with OOP, algorithms, and application-based tests.",
+    tests: "25+ Tests",
     duration: "1–2 Hours Each",
     icon: BarChart3,
     features: [
-      "Model Answers",
-      "Faculty Feedback",
-      "Time-bound Practice",
-      "GS & Essay Focused"
+      "OOP & Inheritance",
+      "Data Structures",
+      "Algorithmic Challenges",
+      "Mini Project Evaluations"
     ]
   },
   {
-    title: "Interview Mock Sessions",
-    description: "Personalized DAF-based mock interviews with expert panel feedback.",
-    tests: "5+ Mocks",
-    duration: "30–40 min Each",
+    title: "C Language Quizzes",
+    description: "Test your C fundamentals, memory management, and problem-solving skills.",
+    tests: "15+ Tests",
+    duration: "1 Hour Each",
     icon: Trophy,
     features: [
-      "Realistic Panel Simulation",
-      "DAF-based Questions",
-      "Soft Skills Training",
-      "Recording & Review"
+      "Pointers & Arrays",
+      "File Handling",
+      "Debugging Exercises",
+      "Logic Building"
+    ]
+  },
+  {
+    title: "Python Skill Checks",
+    description: "Evaluate your Python proficiency with hands-on coding and data tasks.",
+    tests: "30+ Tests",
+    duration: "1–2 Hours Each",
+    icon: Clock,
+    features: [
+      "Syntax & Libraries",
+      "Data Analysis",
+      "Automation Scripts",
+      "Project-based Scenarios"
     ]
   }
 ];
