@@ -178,8 +178,8 @@ export default function Navbar() {
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between px-6 py-4 border-b">
               <div className="flex items-center gap-2">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAENly6N6H7B3YGuteBUAWcFB2otkFlADiKw&s" alt="Academica Logo" className="h-8 w-auto rounded" />
-                <span className="text-green-600 font-extrabold text-lg">AK Coaching Institute</span>
+                <img src="/image.png" alt="Academica Logo" className="h-8 w-auto rounded" />
+                <span className="text-green-600 font-extrabold text-lg">Krishna Institute</span>
               </div>
               <button
                 className="p-2 rounded hover:bg-green-50 transition"
