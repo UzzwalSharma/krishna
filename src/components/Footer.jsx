@@ -15,25 +15,25 @@ const Footer = () => {
 
   const footerLinks = {
     courses: [
-      'GS Foundation (Pre + Mains)',
-      'Optional Subjects (PSIR, Geography, etc.)',
-      'Essay Writing Program',
-      'Interview Guidance Program',
-      'NCERT Foundation Batch'
+      'Accountancy',
+      'Chemistry',
+      'Mathematics',
+      'Economics',
+      'General Science'
     ],
     quickLinks: [
-      'About AK Coaching Institute',
+      'About Krishna Institute',
       'Test Series',
       'Resources & Downloads',
       'Gallery',
-      'Current Affairs'
+      'Academic Calendar'
     ],
     support: [
       'Contact Us',
       'Admission Process',
       'Fee Details',
       'Student Portal',
-      'UPSC Preparation Guide'
+      'Study Tips'
     ],
   };
 
@@ -61,11 +61,11 @@ const Footer = () => {
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center">
                   <GraduationCap className="w-7 h-7 text-blue-600" />
                 </div>
-                <h2 className="text-3xl font-bold">AK Coaching Institute </h2>
+                <h2 className="text-3xl font-bold">Krishna Institute</h2>
               </div>
 
               <p className="text-white/80 leading-relaxed">
-                AK Coaching Institute  in Delhi is a premier coaching institute dedicated to helping UPSC aspirants achieve success through expert faculty, personalized mentoring, and a focused approach to civil services preparation.
+                Krishna Institute in Delhi is a leading academic coaching center dedicated to helping students excel in Accountancy, Chemistry, Mathematics, Economics, and General Science through expert faculty, personalized mentoring, and a focused approach to academic success.
               </p>
 
               <div className="space-y-3 text-sm">
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-5 h-5 text-white" />
-                  <span>contact@nirvanaias.com</span>
+                  <span>contact@krishnainstitute.com</span>
                 </div>
               </div>
 
@@ -132,7 +132,7 @@ const Footer = () => {
             className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4"
           >
             <p className="text-sm text-white/70 text-center md:text-left">
-              © {currentYear} AK Coaching Institute Academy, Delhi. All rights reserved.
+              © {currentYear} Krishna Institute, Delhi. All rights reserved.
             </p>
             <div className="flex gap-4 text-sm">
               {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((text, idx) => (

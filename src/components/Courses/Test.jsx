@@ -58,55 +58,55 @@ function Button({ className = "", size = "md", variant = "primary", children, ..
 
 const testSeries = [
   {
-    title: "PHP Practice Tests",
-    description: "Assess your PHP skills with real-world coding challenges and quizzes.",
-    tests: "20+ Tests",
+    title: "Accountancy Practice Tests",
+    description: "Test your understanding of accounting concepts, principles, and practical applications.",
+    tests: "15+ Tests",
     duration: "1–2 Hours Each",
     icon: FileText,
     features: [
-      "Syntax & Functions",
-      "Database (MySQL) Integration",
-      "Web Application Scenarios",
-      "Project-based Questions"
+      "Accounting Principles",
+      "Financial Statements",
+      "Journal & Ledger Entries",
+      "Practical Case Studies"
     ]
   },
   {
-    title: "Java Coding Assessments",
-    description: "Sharpen your Java programming with OOP, algorithms, and application-based tests.",
-    tests: "25+ Tests",
+    title: "Chemistry Mock Exams",
+    description: "Assess your knowledge in organic, inorganic, and physical chemistry with detailed solutions.",
+    tests: "18+ Tests",
     duration: "1–2 Hours Each",
     icon: BarChart3,
     features: [
-      "OOP & Inheritance",
-      "Data Structures",
-      "Algorithmic Challenges",
-      "Mini Project Evaluations"
+      "Organic & Inorganic Chemistry",
+      "Reaction Mechanisms",
+      "Lab-based Questions",
+      "Numerical Problems"
     ]
   },
   {
-    title: "C Language Quizzes",
-    description: "Test your C fundamentals, memory management, and problem-solving skills.",
-    tests: "15+ Tests",
-    duration: "1 Hour Each",
+    title: "Mathematics Test Series",
+    description: "Practice algebra, calculus, statistics, and geometry with exam-style questions.",
+    tests: "20+ Tests",
+    duration: "1–2 Hours Each",
     icon: Trophy,
     features: [
-      "Pointers & Arrays",
-      "File Handling",
-      "Debugging Exercises",
-      "Logic Building"
+      "Algebra & Trigonometry",
+      "Calculus & Geometry",
+      "Statistics & Probability",
+      "Application-based Problems"
     ]
   },
   {
-    title: "Python Skill Checks",
-    description: "Evaluate your Python proficiency with hands-on coding and data tasks.",
-    tests: "30+ Tests",
-    duration: "1–2 Hours Each",
+    title: "Economics Assessments",
+    description: "Evaluate your grasp of micro, macro, and Indian economics with topic-wise tests.",
+    tests: "12+ Tests",
+    duration: "1 Hour Each",
     icon: Clock,
     features: [
-      "Syntax & Libraries",
-      "Data Analysis",
-      "Automation Scripts",
-      "Project-based Scenarios"
+      "Micro & Macro Economics",
+      "Market Structures",
+      "Indian Economy",
+      "Case Study Questions"
     ]
   }
 ];

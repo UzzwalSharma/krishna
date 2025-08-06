@@ -38,67 +38,67 @@ function Button({ className = "", size = "md", children, ...props }) {
   );
 }
 
-// Updated programming courses
+// Updated general courses
 const courses = [
   {
     id: 1,
-    title: "PHP Programming",
-    description: "Learn server-side scripting and web development with PHP from basics to advanced.",
+    title: "Accountancy",
+    description: "Master the fundamentals of accounting, financial statements, and business transactions.",
     icon: Landmark,
     duration: "3 Months",
-    students: "900+ Enrolled",
+    students: "800+ Enrolled",
     features: [
-      "Syntax & Data Structures",
-      "Database Integration (MySQL)",
-      "Building Dynamic Websites",
-      "Project: Blog Platform"
+      "Basic Principles of Accounting",
+      "Financial Statements Analysis",
+      "Ledger & Journal Entries",
+      "Project: Company Accounts"
     ],
     color: "from-indigo-600 to-blue-500"
   },
   {
     id: 2,
-    title: "Java Programming",
-    description: "Master object-oriented programming and application development with Java.",
+    title: "Chemistry",
+    description: "Explore the world of atoms, molecules, reactions, and laboratory techniques.",
     icon: BookOpenCheck,
     duration: "4 Months",
-    students: "1200+ Enrolled",
+    students: "950+ Enrolled",
     features: [
-      "OOP Concepts",
-      "GUI & Desktop Apps",
-      "Data Structures & Algorithms",
-      "Project: Library Management System"
+      "Organic & Inorganic Chemistry",
+      "Chemical Reactions",
+      "Lab Experiments",
+      "Project: Chemistry in Daily Life"
+    ],
+    color: "from-green-600 to-emerald-500"
+  },
+  {
+    id: 3,
+    title: "Mathematics",
+    description: "Strengthen your problem-solving skills with algebra, calculus, and geometry.",
+    icon: FileText,
+    duration: "3 Months",
+    students: "1100+ Enrolled",
+    features: [
+      "Algebra & Trigonometry",
+      "Calculus Basics",
+      "Geometry & Statistics",
+      "Project: Real-life Applications"
     ],
     color: "from-orange-500 to-amber-500"
   },
   {
-    id: 3,
-    title: "C Programming",
-    description: "Build a strong foundation in procedural programming and system-level concepts with C.",
-    icon: FileText,
+    id: 4,
+    title: "Economics",
+    description: "Understand economic principles, markets, and financial systems.",
+    icon: LibraryBig,
     duration: "2 Months",
     students: "700+ Enrolled",
     features: [
-      "Pointers & Memory Management",
-      "File Handling",
-      "Problem Solving",
-      "Project: Mini Compiler"
+      "Micro & Macro Economics",
+      "Market Structures",
+      "Indian Economy",
+      "Project: Economic Survey"
     ],
     color: "from-blue-700 to-cyan-600"
-  },
-  {
-    id: 4,
-    title: "Python Programming",
-    description: "Start coding with Python for web, data science, automation, and more.",
-    icon: LibraryBig,
-    duration: "3 Months",
-    students: "1500+ Enrolled",
-    features: [
-      "Syntax & Libraries",
-      "Web Scraping & Automation",
-      "Data Analysis (Pandas, NumPy)",
-      "Project: Data Dashboard"
-    ],
-    color: "from-green-600 to-emerald-500"
   }
 ];
 
@@ -114,10 +114,10 @@ const CoursesSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Our <span className="bg-gradient-primary bg-clip-text text-black">Programming Courses</span>
+            Our <span className="bg-gradient-primary bg-clip-text text-black">offered Courses</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Strategically designed courses for every stage of your programming journey — from basics to advanced projects.
+            Strategically designed courses for every stage of your academic journey — from basics to advanced projects.
           </p>
         </motion.div>
 

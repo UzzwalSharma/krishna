@@ -68,8 +68,8 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAENly6N6H7B3YGuteBUAWcFB2otkFlADiKw&s" alt="Academica Logo" className="h-10 w-auto rounded shadow" />
-            <span className="text-green-600 font-extrabold text-xl tracking-wide">AK Coaching Institute</span>
+            <img src="/image.png" alt="Academica Logo" className="h-10 w-auto rounded shadow" />
+            <span className="text-green-600 font-extrabold text-xl tracking-wide">Krishna Institute</span>
           </div>
 
           {/* Desktop Nav */}

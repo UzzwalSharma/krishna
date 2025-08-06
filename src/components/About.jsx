@@ -82,7 +82,7 @@ const AboutSection = () => {
             className="rounded-xl overflow-hidden shadow-xl"
           >
             <div className="aspect-w-16 aspect-h-9">
-             <img src="https://st3.depositphotos.com/4218696/18211/i/450/depositphotos_182119506-stock-photo-back-to-school-conceptual-background.jpg" alt="" srcset="" />
+             <img src="/krishna.jpg" alt="" srcset="" />
             </div>
           </motion.div>
 
@@ -95,13 +95,13 @@ const AboutSection = () => {
             className="text-left"
           >
             <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-900 mb-4">
-           AK Coaching Institute
+           Krishna Institute
             </h2>
             <span className="block text-xl sm:text-2xl font-semibold text-purple-700 mb-3">
               IRPO: Intensive Research & Practice Oriented Method
             </span>
             <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-            AK Coaching Institute empowers UPSC aspirants with a unique blend of conceptual clarity, structured research, and continuous mentoring.
+            Krishna Institute empowers aspirants with a unique blend of conceptual clarity, structured research, and continuous mentoring.
               Our IRPO approach ensures aspirants not only prepare smartly but also grow steadily with focused guidance, rigorous test series, and personalized support throughout the journey.
             </p>
           </motion.div>
